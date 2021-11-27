@@ -4,7 +4,7 @@ export const greetings = {
   name: "Developer Tats",
   title: "Hi all, I'm Tatenda Makandigona",
   description:
-    "Passionate Information Technology student with interest in Big Data & Data Analysis & Web Development & Digital Marketing",
+    "Data-driven Machine Learning Engineer, fully proficient Python with a problem-solving mindset, analytical approach to tasks and strong knowledge of financial sector necessities. Developed advanced machine learning systems adapted to the finance/ health industry best practices Collaborated with key project stakeholders to ensure that essential goals were met Created effective databases that assisted in project planning and new product launches Researched and tested new technologies to support the growth of the business and to maintain competitiveness",
   resumeLink: "https://www.linkedin.com/in/tmakandigona/",
 };
 
@@ -28,16 +28,14 @@ export const skillsSection = {
     "CRAZY DEVELOPER (AND ENGINEER 😀) WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive full stack Interfaces for your web applications"
+      "⚡ Programming, debugging, testing, validation, documentation and/or deployment of the solution/product"
     ),
-    emoji(
-      "⚡ Build scalable databases capable of ETL processes using SQL and Spark."
-    ),
+    emoji("⚡ Strong experience in either Python."),
     emoji(
       "⚡ Analytical skills with the ability to collect, organize and analyze large amounts of information with attention to detail and accuracy. (Web Scraping)"
     ),
     emoji(
-      "⚡ Specialize in online web design, search engine marketing, and optimization, email marketing, and mobile website creations."
+      "⚡ Clean & structure the data and build training & validate data sets by applying advance feature-engineering techniques."
     ),
 
     emoji(
@@ -47,67 +45,43 @@ export const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "vscode-icons:file-type-html",
+      skillName: "Azure",
+      fontAwesomeClassname: "logos:azure",
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "vscode-icons:file-type-css",
+      skillName: "Git",
+      fontAwesomeClassname: "logos:git",
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "logos:javascript",
+      skillName: "Postgresql",
+      fontAwesomeClassname: "logos:postgresql",
     },
     {
-      skillName: "Wordpress",
-      fontAwesomeClassname: "logos:woocommerce",
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-    },
-    {
-      skillName: "yarn",
-      fontAwesomeClassname: "vscode-icons:file-type-yarn",
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "vscode-icons:file-type-sql",
-    },
-    {
-      skillName: "mongoDB",
-      fontAwesomeClassname: "vscode-icons:file-type-mongo",
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "logos:aws",
+      skillName: "Mongodb",
+      fontAwesomeClassname: "logos:mongodb",
     },
     {
       skillName: "python",
       fontAwesomeClassname: "logos:python",
-    },
-    {
-      skillName: "git",
-      fontAwesomeClassname: "logos:git-icon",
     },
   ],
 };
 
 export const SkillBars = [
   {
-    Stack: "Full Stack Development", //Insert stack or technology you have experience in
+    Stack: "Data visualization", //Insert stack or technology you have experience in
     progressPercentage: "85", //Insert relative proficiency in percentage
   },
   {
-    Stack: "Big Data",
-    progressPercentage: "70",
-  },
-  {
-    Stack: "SEO & PPC",
+    Stack: "Data Modeling",
     progressPercentage: "80",
   },
   {
-    Stack: "Data Analysis",
+    Stack: "Clustering & classification & Regression",
+    progressPercentage: "80",
+  },
+  {
+    Stack: "Web Scraping",
     progressPercentage: "90",
   },
 ];
@@ -178,18 +152,24 @@ export const experience = [
 
 export const projects = [
   {
-    name: "React Website ",
-    desc: "Reactjs + Styled Components + ContextApi",
-    link: "https://github.com/digitaltk/monsters-rolodex/tree/master",
-  },
-  {
-    name: "Web Scraping",
-    desc: "Web scraping with Jupyter notebook and beautifulsoup",
+    name: "Apache PySpark ",
     github: "https://github.com/digitaltk/Pyspark",
   },
   {
-    name: "AspNet Project",
-    github: "https://github.com/digitaltk/reactivities",
+    name: "Data Analysis with Tableau",
+    github: "https://github.com/digitaltk/Tableau",
+  },
+  {
+    name: "Web Scraping",
+    github: "https://github.com/digitaltk/scraping-with-takealot",
+  },
+  {
+    name: "Clustering and Classification",
+    github: "https://github.com/digitaltk/ML-Classification",
+  },
+  {
+    name: "Regression",
+    github: "https://github.com/digitaltk/ML-Regression",
   },
 ];
 
