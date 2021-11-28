@@ -4,7 +4,7 @@ export const greetings = {
   name: "Developer Tats",
   title: "Hi all, I'm Tatenda Makandigona",
   description:
-    "Data-driven Machine Learning Engineer, fully proficient Python with a problem-solving mindset, analytical approach to tasks and strong knowledge of financial sector necessities. Developed advanced machine learning systems adapted to the finance/ health industry best practices Collaborated with key project stakeholders to ensure that essential goals were met Created effective databases that assisted in project planning and new product launches Researched and tested new technologies to support the growth of the business and to maintain competitiveness",
+    "Data-driven Machine Learning Engineer, fully proficient Python with a problem-solving mindset, analytical approach to tasks and strong knowledge of financial sector necessities.",
   resumeLink: "https://www.linkedin.com/in/tmakandigona/",
 };
 
@@ -28,9 +28,11 @@ export const skillsSection = {
     "CRAZY DEVELOPER (AND ENGINEER 😀) WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Programming, debugging, testing, validation, documentation and/or deployment of the solution/product"
+      "⚡ Knowledge & Experience in data mining, learning to rank, deep learning, natural language processing, machine learning, and/or related fields"
     ),
-    emoji("⚡ Strong experience in either Python."),
+    emoji(
+      "⚡ Experience using statistical modeling or machine learning techniques to build models that have driven company decision making."
+    ),
     emoji(
       "⚡ Analytical skills with the ability to collect, organize and analyze large amounts of information with attention to detail and accuracy. (Web Scraping)"
     ),
