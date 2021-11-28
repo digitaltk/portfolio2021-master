@@ -5,7 +5,7 @@ export const greetings = {
   title: "Hi all, I'm Tatenda Makandigona",
   description:
     "Data-driven Machine Learning Engineer, fully proficient Python with a problem-solving mindset, analytical approach to tasks and strong knowledge of financial sector necessities.",
-  resumeLink: "https://www.linkedin.com/in/tmakandigona/",
+  resumeLink: "./public/resume.pdf",
 };
 
 export const openSource = {
