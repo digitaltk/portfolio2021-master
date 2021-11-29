@@ -174,7 +174,7 @@ export const projects = [
   },
 ];
 
-export const WebDesigns = [
+export const webdesigns = [
   {
     name: "Interior Manufactures ",
     link: "http://interiormanufactures.com/",
