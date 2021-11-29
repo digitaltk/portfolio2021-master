@@ -175,6 +175,25 @@ export const projects = [
   },
 ];
 
+export const WebDesigns = [
+  {
+    name: "Interior Manufactures ",
+    link: "http://interiormanufactures.com/",
+  },
+  {
+    name: "Alaris USA LLC",
+    link: "https://www.alarisusallc.com/",
+  },
+  {
+    name: "Yo Runners",
+    link: "https://yorunners.co.zw/",
+  },
+  {
+    name: "Dobsonville Human Rights Centre",
+    link: "https://dobsonvillehumanrights.co.za/",
+  },
+];
+
 export const feedbacks = [
   {
     name: "Shaniel @ YP Africa",

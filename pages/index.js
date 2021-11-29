@@ -7,6 +7,8 @@ const Proficiency = dynamic(() => import("../containers/Proficiency"));
 const Education = dynamic(() => import("../containers/Education"));
 const Experience = dynamic(() => import("../containers/Experience"));
 const Projects = dynamic(() => import("../containers/Projects"));
+const WebDesigns = dynamic(() => import("../containers/WebDesigns"));
+
 const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const GithubProfileCard = dynamic(() =>
   import("../components/GithubProfileCard")
@@ -21,7 +23,7 @@ export default function Home({ githubProfileData }) {
         data={{
           title: "Tatenda makandigona",
           description:
-            "A passionate Full Stack Web Developer and Data Engineer.",
+            "A passionate Full Stack Web Developer and Data Science Engineer.",
           image:
             "https://media-exp1.licdn.com/dms/image/C4D03AQGGLp0jsBVINA/profile-displayphoto-shrink_200_200/0/1610547703608?e=1643241600&v=beta&t=MQF_0YAXP9z6ReN_gewdkpV-yAwcHBMzQcA2JrzGBeY",
           url: "https://portfolio-mjhrx3tvc-digitaltk.vercel.app",
@@ -31,12 +33,15 @@ export default function Home({ githubProfileData }) {
             "Freelancers In Zimbabwe",
             "Freelancer in South Africa",
             "Portfolio",
-            "tatenda Makandigona Portfolio ",
-            "Tatenad Portfolio",
+            "Tatenda Makandigona Portfolio ",
+            "Tatenda Portfolio",
             "web developer",
             "full stack",
             "full stack web developer",
             "Data Engineering",
+            "machine learning engineer",
+            "data analyst",
+            "data scienceist",
             "mobile app developer",
             "wordpress developer around me",
             " SEO, Google Ads, PPC, WordPress Development including shopify, JavaScript, eCommerce, Woocommerce, Magento, PHP, MySQL, HTML, CSS, and Content Writing.",
@@ -57,8 +62,8 @@ export default function Home({ githubProfileData }) {
       <Proficiency />
       <Education />
       <Experience />
-      <Feedbacks />
       <Projects />
+      <WebDesigns />
       <GithubProfileCard prof={githubProfileData} />
     </div>
   );
