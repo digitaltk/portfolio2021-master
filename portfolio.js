@@ -119,7 +119,6 @@ export const experience = [
     company: "Drimkoe",
     companylogo: "/img/icons/common/drimkoeblue.png",
     date: "October 2020 – December 2020",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     descBullets: [
       "Develop, test and implement new software programs",
       "Participating in daily scrum meetings, sprint planning, unit testing and bug fixes.",
